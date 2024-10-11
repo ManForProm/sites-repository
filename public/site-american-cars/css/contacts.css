@@ -1,3 +1,19 @@
+.contacts__forms.shine {
+  animation: shine 1.5s forwards; /* Добавляем анимацию */
+}
+
+@keyframes shine {
+  0% {
+    background-color: #21062a; /* Начальный цвет */
+  }
+  50% {
+    background-color: #583e61; /* Цвет во время анимации */
+  }
+  100% {
+    background-color: #21062a; /* Конечный цвет */
+  }
+}
+
 .contacts {
 }
 .container {
@@ -26,11 +42,16 @@
   background-color: #21062a;
   padding: 50px 75px 57px;
   text-align: center;
+  position: relative; 
+  overflow: hidden; 
+  transition: background-color 0.5s ease;
 }
-.title contacts__title{
+
+
+
+.contacts__title{
   color: #fff;
-  margin-bottom: 16px;
-  margin-left: 53px;
+  margin-bottom: 25px;
   text-align: center;
 }
 .contacts__btn {
@@ -49,6 +70,7 @@
   display: block;
   padding: 0 15;
   text-align: center;
+  font-size: 30;
 }
 .contacts__input::placeholder {
   text-align: center;

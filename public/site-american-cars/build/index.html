@@ -24,6 +24,7 @@
   <link rel="stylesheet" href="./css/carousel.css">
   <link rel="stylesheet" href="./css/contacts.css">
   <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/toast.css">
 
   <!-- media -->
   <link rel="stylesheet" href="./css/media950.css">
@@ -54,7 +55,7 @@
           <p class="header__text">
             все норм все договора биток привезем все окей
           </p>
-          <a href="#" class="button">КОНСУЛЬТАЦИЯ ЭКСПЕРТА</a>
+          <a class="tocontacts_btn button" href="javascript:void(0);">КОНСУЛЬТАЦИЯ ЭКСПЕРТА</a>
           <div class="header__social">
             <a class="header__social-link">
               <img src="./assets/images/facebook.svg" alt="instagram icon" class="header__social-img">
@@ -124,7 +125,7 @@
                 рынках.
               </p>
             </div>
-            <a href="#" class="button button--decor">КОНСУЛЬТАЦИЯ ЭКСПЕРТА</a>
+            <a href="javascript:void(0);" class="tocontacts_btn button button--decor">КОНСУЛЬТАЦИЯ ЭКСПЕРТА</a>
           </div>
   
           <ol class="services__list">
@@ -241,7 +242,7 @@
   <section class="contacts">
       <div class="container">
           <div class="contacts__inner">
-              <div class="contacts__info">
+              <div id="contacts__info_id" class="contacts__info">
                   <h2 class="title">
                       КОНТАКТЫ
                   </h2>
@@ -268,8 +269,8 @@
               </div>
               <form class="contacts__forms">
                   <h2 class="title contacts__title">Оставить заявку</h2>
-                  <input class="contacts__input" type="text" placeholder="Как вас зовут">
-                  <input class="contacts__input" type="tel" placeholder="Ваш номер телефона">
+                  <input id="contactsInputName" class="contacts__input " type="text" placeholder="Как вас зовут">
+                  <input id="contactsInputTel" class="contacts__input " type="tel" placeholder="Ваш номер телефона">
                   <button class="contacts__btn button" type="submit">Отправить заявку</button>
               </form>
           </div>
@@ -300,10 +301,20 @@
       </div>
   </div>
   </footer>
+  
+  
+  <div id="toast" class="toast hidden">
+      <div class="container">
+          <div id="toastText" class="toast__text">
+          </div>
+          <div class="toast__clown">🤡</div>
+      </div>
+  </div>
 
   <script type="text/javascript" src="./libraries/slick/jquery.min.js"></script>
   <script type="text/javascript" src="./libraries/slick/slick.min.js"></script>
   <script type="text/javascript" src="./js/slider.js"></script>
+  <script type="text/javascript" src="./js/index.js"></script>
 
 </body>
 
