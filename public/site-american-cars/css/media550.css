@@ -1,0 +1,125 @@
+@media (max-width: 550px) {
+  .body {
+    overflow-x: hidden;
+  }
+  .header__top {
+    padding: 0px 0px 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .header__images {
+    top: 150;
+  }
+  .header__title {
+    font-size: 24px;
+    line-height: 5px;
+  }
+  .header__content {
+    padding-top: 32px;
+  }
+  .header__social-link{
+    margin-right: -25px;
+  }
+  body {
+    font-size: 9px;
+    line-height: 9px;
+  }
+  .header__social-img {
+    width: 45%;
+  }
+  .phone {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 34px;
+  }
+  .logo__img {
+    width: 120%;
+    padding: 40px;
+  }
+  .footer__inner logo__img{
+    padding: 0;
+  }
+  .header {
+    min-height: 450px;
+  }
+  .button {
+    font-size: 10px;
+    line-height: 0px;
+  }
+  .header__social {
+    padding: 5px 0 20px;
+  }
+
+  .services__item::before {
+    margin-top: 15px;
+  }
+  .title {
+    font-size: 24px;
+    line-height: 5px;
+  }
+  .title::after {
+    content: "";
+    width: 40;
+    height: 2px;
+    background-color: #21062a;
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 7px;
+  }
+  .services__content {
+    width: 750;
+    margin-right: 0;
+  }
+
+  .button--decor::before {
+    margin-left: 144px;
+    margin-top: 0px;
+    content: "";
+    position: absolute;
+    width: 51px;
+    height: 1px;
+    background-color: #c4c4c4;
+  }
+  .button--decor::after {
+    content: "ЖМИ";
+    position: absolute;
+    color: #c4c4c4;
+    margin-left: 97px;
+  }
+  title::after {
+    display: none;
+  }
+  .benefits__list {
+    padding: 0 15 15 15;
+  }
+  .benefits__title {
+    margin-left: 0;
+    margin-top: -76px;
+  }
+  .benefits__title::after {
+    display: none;
+  }
+  .carousel .slick-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    list-style: none;
+    height: 62%;
+  }
+  .slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 1px;
+    height: 16px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+  }
+  .contacts__title {
+    font-size: 15px;
+  }
+  .contacts__btn {
+    line-height: 10px;
+  }
+}

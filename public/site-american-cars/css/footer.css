@@ -1,0 +1,21 @@
+
+.footer {
+    background-color: #21062a;
+  }
+  .footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50 0 50;
+    color: #fff;
+    height: 100px;
+  }
+  .logo {
+  }
+  .logo__img {
+  }
+  .header__social-img {
+    filter: invert(100%);
+  }
+  .footer__copy {
+  }

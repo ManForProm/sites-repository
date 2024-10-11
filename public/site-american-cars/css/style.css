@@ -1,0 +1,26 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+.container {
+  max-width: 1220;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px;
+}
+
+body {
+  margin: 0;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 300;
+  color: #2c2b2b;
+  font-family: "Oswald", sans-serif;
+}

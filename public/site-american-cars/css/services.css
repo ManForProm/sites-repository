@@ -1,0 +1,109 @@
+.services {
+  padding-top: 75px;
+}
+
+.title {
+  color: #21062a;
+  font-size: 36px;
+  line-height: 54px;
+  font-weight: 400;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+
+.title::after {
+  content: "";
+  width: 80;
+  height: 3px;
+  background-color: #21062a;
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+.services__inner {
+  display: flex;
+  margin-bottom: 100px;
+}
+.services__content {
+  width: 750;
+  margin-right: 150;
+}
+
+.services_content-title {
+  color: #5a0d67;
+  font-size: 18px;
+  margin-bottom: 12px;
+  line-height: 27px;
+  font-weight: 300;
+}
+.services__content-textbox {
+  margin-bottom: 57;
+}
+.services__content-text {
+  margin-bottom: 12px;
+}
+.services__content-box {
+  margin-bottom: 20px;
+}
+.button {
+}
+.button--decor {
+  margin-top: 15px;
+  color: #fff;
+}
+.button--decor::after {
+  content: "ЖМИ";
+  position: absolute;
+  color: #c4c4c4;
+  margin-left: 105px;
+}
+.button--decor::before {
+  margin-left: 180px;
+  margin-top: 10px;
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 2px;
+  background-color: #c4c4c4;
+}
+.services__list {
+  list-style: none;
+  counter-reset: list-counter;
+  margin-top: 50px;
+}
+.services__item {
+  counter-increment: list-counter;
+  border: 1px solid #c4c4c4;
+  margin-bottom: 12px;
+  width: 450;
+  padding: 10 15 10 113;
+  position: relative;
+  transition: all 0.5s;
+}
+.services__item::before {
+  content: "0" counter(list-counter);
+  position: absolute;
+  left: 20px;
+  margin-top: 50px;
+  font-weight: 400;
+  line-height: 54px;
+  font-size: 36px;
+  color: #c4c4c4;
+  transform: rotate(270deg);
+}
+.services__item:hover {
+  border: 2px solid #5a0d67;
+  width: 420px;
+}
+.services__item:hover .services__item-title {
+  color: #5a0d67;
+}
+.services__item:hover::before {
+  color: #5a0d67;
+}
+.services__item-title {
+  font-size: 24px;
+  font-weight: 300;
+}
+.services__item-text {
+}
