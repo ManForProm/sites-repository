@@ -12,6 +12,6 @@
   "devDependencies": {
     "gulp": "^5.0.0",
     "gulp-rigger": "^0.5.8",
-    "serve": "^14.2.3"
+    "serve": "^14.2.4"
   }
 }

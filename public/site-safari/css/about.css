@@ -1,0 +1,41 @@
+.about {
+    padding-bottom: 100px;
+}
+.container {
+}
+.about__inner {
+    display: grid;
+    grid-template-columns: 448px 640px;
+    grid-gap: 32px;
+}
+.about__content {
+}
+.about__title {
+    text-align: left;
+    margin-bottom: 25px;
+}
+.title {
+}
+.about__text {
+    margin-bottom: 34px;
+
+}
+.about__link {
+    font-size: 16px;
+    line-height: 19px;
+    color: #c4c4c4;
+    text-decoration: underline;
+}
+.about__popup {
+    background-image: url(../assets/images/video.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popup__link {
+}
+.about__ling-img {
+}
