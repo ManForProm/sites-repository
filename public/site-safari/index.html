@@ -30,6 +30,11 @@
   <link rel="stylesheet" href="./css/gallery.css">
   <link rel="stylesheet" href="./css/tour.css">
   <link rel="stylesheet" href="./css/booking.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/media1150.css">
+  <link rel="stylesheet" href="./css/media800.css">
+  <link rel="stylesheet" href="./css/media560.css">
+
 </head>
 
 <body>
@@ -41,10 +46,11 @@
             <img src="assets/images/logo.svg" alt="" class="logo__img">
           </a>
           <div class="header__phone">
-            Заказ туров и бронирование:
+            <span>Заказ туров и бронирование:</span> 
             <a href="tel:+375298679892" class="header__phone-number">тел. +375 29 867 98 92</a>
           </div>
           <nav class="menu">
+            <button class="menu__btn"><span class="row"></span></button>
             <ul class="menu__list">
               <li class="menu__item"><a href="#" class="menu__link">Бронирование</a></li>
               <li class="menu__item"><a href="#" class="menu__link">Экскурсии</a></li>
@@ -218,7 +224,7 @@
       <h2 class="map__title title">Карта Африки</h2>
       <iframe class="map__inframe"
         src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d26425492.690888632!2d22.502889444596594!3d2.285792971422058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sru!2sru!4v1729242752817!5m2!1sru!2sru"
-        width="1120" height="610" style="border:0;" allowfullscreen="" loading="lazy"
+        width="100%" height="610" style="border:0;" allowfullscreen="" loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   </section>
@@ -244,6 +250,7 @@
       </div>
     </div>
   </section>
+
   <section class="gallery">
     <div class="container">
       <div class="gallery__top">
@@ -372,7 +379,6 @@
       </form>
     </div>
   </section>
-
   <footer class="footer">
     <div class="container">
       <div class="footer__logo">
@@ -400,7 +406,7 @@
         </div>
       </div>
     </div>
-  </footer>
+  </footer> 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="./js/slick.min.js"></script>
   <script src="./js/jquery.magnific-popup.min.js"></script>

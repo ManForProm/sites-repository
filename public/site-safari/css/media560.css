@@ -1,0 +1,201 @@
+@media (max-width: 560px) {
+  .title {
+    font-size: 22px;
+  }
+  .gallery__link {
+    font-size: 10px;
+    line-height: 19px;
+    text-decoration: underline;
+  }
+  .header {
+  }
+  .container {
+  }
+  .header__inner {
+  }
+  .header__top {
+  }
+  .logo {
+  }
+  .logo__img {
+  }
+  .header__phone {
+  }
+  .header__phone-number {
+  }
+  .menu {
+  }
+  .menu__btn {
+  }
+  .row {
+  }
+  .menu__list {
+  }
+  .menu__item {
+  }
+  .menu__link {
+  }
+  .header__title {
+  }
+  .header__content {
+  }
+  .header__descr {
+  }
+  .header__btn {
+  }
+  .header__arrow {
+  }
+  .header__arrow-link {
+  }
+  .header__arrow-img {
+  }
+  .direction {
+    padding: 50px 0;
+  }
+  .direction__inner {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+  }
+  .direction__item {
+  }
+  .direction__img {
+  }
+  .direction__text {
+  }
+  .trevel-info {
+  }
+  .travel-info__title {
+  }
+  .title {
+  }
+  .travel-info__items {
+    grid-gap: 20px;
+  }
+  .travel-info__item {
+  }
+  .travel-info__img {
+  }
+  .travel-info__text {
+  }
+  .popular {
+  }
+  .popular__title {
+  }
+  .popular__items {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .popular__link {
+  }
+  .popular__link-title {
+  }
+  .popular__price {
+  }
+  .popular__link-title--big {
+  }
+  .popular__country {
+  }
+  .popular__time {
+  }
+  .map {
+  }
+  .map__title {
+  }
+  .map__inframe {
+    height: 310px;
+  }
+  .about {
+  }
+  .about__inner {
+  }
+  .about__content {
+  }
+  .about__title {
+  }
+  .about__text {
+  }
+  .about__link {
+  }
+  .about__popup {
+  }
+  .popup__link {
+  }
+  .about__ling-img {
+  }
+  .gallery {
+  }
+  .gallery__top {
+  }
+  .gallery__title {
+  }
+  .gallery__link {
+  }
+  .gallery__slider {
+  }
+  .gallery__item {
+  }
+  .gallery__item-inner {
+  }
+  .gallery__item-link {
+  }
+  .gallery__item-img {
+  }
+  .tour {
+  }
+  .tour__title {
+  }
+  .tour__box {
+    column-count: 1;
+  }
+  .tour__text {
+  }
+  .tour__info {
+    
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+  }
+  .tour__info-item {
+  }
+  .tour__info-text {
+  }
+  .booking {
+  }
+  .booking__title {
+  }
+  .booking__form {
+  }
+  .booking__input {
+  }
+  .booking__area {
+  }
+  .booking__btn {
+  }
+  .booking__label {
+  }
+  .booking__checkbox {
+  }
+  .booking__checkbox-style {
+  }
+  .footer {
+  }
+  .footer__logo {
+  }
+  .footer__box {
+    flex-direction: column;
+  }
+  .footer__info {
+  }
+  .footer__box-title {
+  }
+  .footer__copy {
+  }
+  .footer__link {
+  }
+  .footer_addres {
+  }
+  .footer__contacts {
+  }
+  .footer__phone {
+  }
+  .footer_email {
+  }
+}

@@ -1,0 +1,293 @@
+@media (max-width: 880px) {
+  .direction__inner {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 12px;
+  }
+  .popular {
+  }
+  .popular__title {
+  }
+  .popular__items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .popular__link {
+  }
+  .popular__link:nth-child(3),
+  .popular__link:nth-child(6) {
+    grid-column: auto;
+    grid-row: auto;
+  }
+  .popular__link-title {
+  }
+  .popular__price {
+  }
+  .popular__link-title--big {
+  }
+  .popular__country {
+  }
+  .popular__time {
+  }
+
+  .gallery__item-inner {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .gallery__item-img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  span {
+    display: none;
+  }
+  .title {
+    font-size: 28px;
+  }
+  .header {
+  }
+  .container {
+  }
+  .header__inner {
+  }
+  .header__top {
+    justify-content: center;
+    padding: 16px 0px;
+  }
+  .logo {
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .logo__img {
+  }
+  .header__phone {
+  }
+  .header__phone-number {
+  }
+  .menu {
+    display: flex;
+    justify-content: center;
+    border: none;
+  }
+  .menu__list {
+    transform: translateX(-300%);
+    display: block;
+    background-color: #886239;
+    padding: 10px 0;
+    padding: 10px 100px 10px 100px;
+    margin-top: 50px;
+    border-radius: 10px;
+    transition: all 0.3s;
+  }
+  .menu__list.menu__list--active {
+    transform: translateX(0%);
+  }
+  .menu__btn {
+    display: inline-block;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+  }
+
+  .menu__btn::after,
+  .menu__btn::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 2px;
+    background-color: #fff;
+  }
+  .menu__btn::before {
+    top: 0;
+  }
+  .menu__btn::after {
+    bottom: 0;
+  }
+  .menu__btn span {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+  }
+  .menu__item {
+  }
+  .menu__link {
+  }
+  .header__title {
+    font-size: 55px;
+  }
+  .header__content {
+  }
+  .header__descr {
+  }
+  .header__btn {
+  }
+  .header__arrow {
+  }
+  .header__arrow-link {
+  }
+  .header__arrow-img {
+  }
+  .direction {
+  }
+  .direction__inner {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  .direction__item {
+  }
+  .direction__img {
+  }
+  .direction__text {
+  }
+  .trevel-info {
+  }
+  .travel-info__title {
+  }
+  .title {
+  }
+  .travel-info__items {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+  }
+  .travel-info__item {
+  }
+  .travel-info__img {
+  }
+  .travel-info__text {
+  }
+  .popular {
+    padding: 50px 0;
+  }
+  .popular__title {
+  }
+  .popular__items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .popular__link {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 120%;
+  }
+  .popular__link-title {
+  }
+  .popular__price {
+  }
+  .popular__link-title--big {
+  }
+  .popular__country {
+  }
+  .popular__time {
+  }
+  .map {
+    padding-bottom: 50px;
+  }
+  .map__title {
+  }
+  .map__inframe {
+    height: 450px;
+  }
+  .about {
+  }
+  .about__inner {
+  }
+  .about__content {
+  }
+  .about__title {
+  }
+  .about__text {
+  }
+  .about__link {
+  }
+  .about__popup {
+  }
+  .popup__link {
+  }
+  .about__ling-img {
+  }
+  .gallery {
+  }
+  .gallery__top {
+  }
+  .gallery__title {
+  }
+  
+  .gallery__link {
+  }
+  .gallery__slider {
+  }
+  .gallery__item {
+  }
+  .gallery__item-inner {
+  }
+  .gallery__item-link {
+  }
+  .gallery__item-img {
+  }
+  .tour {
+  }
+  .tour__title {
+  }
+  .tour__box {
+  }
+  .tour__text {
+  }
+  .tour__info {
+    
+        font-weight: 700;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 15px;
+
+  }
+  .tour__info-item {
+  }
+  .tour__info-text {
+  }
+  .booking {
+  }
+  .booking__title {
+  }
+  .booking__form {
+  }
+  .booking__input {
+  }
+  .booking__area {
+  }
+  .booking__btn {
+  }
+  .booking__label {
+  }
+  .booking__checkbox {
+  }
+  .booking__checkbox-style {
+  }
+  .footer {
+  }
+  .footer__logo {
+  }
+  .footer__box {
+  }
+  .footer__info {
+  }
+  .footer__box-title {
+  }
+  .footer__copy {
+  }
+  .footer__link {
+  }
+  .footer_addres {
+  }
+  .footer__contacts {
+  }
+  .footer__phone {
+  }
+  .footer_email {
+  }
+}
