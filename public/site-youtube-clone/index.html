@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/content.css">
+    <link rel="stylesheet" href="./css/media560.css">
+    <link rel="stylesheet" href="./css/media940.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__items">
+                <div class="header__links">
+                    <button class="menu__btn">
+                        <div class="menu__background"></div>
+                        <span class="row"></span>
+                    </button>
+                    <a href="#" class="header__link-youtube">
+                        <img src="assets/images/youtube.svg" alt="" class="header__img-logo"></a>
+                    <p class="header__country">NL</p>
+                </div>
+                <div class="header__search">
+                    <div class="header__input">
+                        <input type="text" placeholder="Введите запрос" class="search__textfield-input">
+                        <a href="#" class="header__serach-keyboard">
+                            <img src="assets/images/keyboard.svg" alt="" class="header__img-keyboard">
+                        </a>
+                    </div>
+                    <button class="search__btn">
+                        <img src="assets/images/search.svg" alt="" class="header__img-search">
+                    </button>
+                    <button class="search__btn-voice">
+                        <img src="assets/images/voice.svg" alt="" class="header__img-voice">
+                    </button>
+                </div>
+                <div class="header__usercorner">
+                    <button class="header__create">
+                        <img src="assets/images/plus.svg" alt="" class="create__plus-img">
+                        <p class="header__usercorner-text">Создать</p>
+                    </button>
+                    <button class="notification__btn">
+                        <img src="assets/images/notification.svg" alt="" class="notification__btn-img">
+                        <p class="notification__btn-text">9+</p>
+                    </button>
+                    <a href="#" class="avatar__link">
+                        <img src="assets/images/avatar.jpg" alt="" class="avatar__link-img">
+                    </a>
+                </div>
+            </div>
+            <div class="content__list-catigories">
+                <ul class="catigories__list">
+                    <li class="catigories__item"><a href="#" class="catigories__link">Все</a></li>
+                    <li class="catigories__item"><a href="#" class="catigories__link">Музыка</a></li>
+                    <li class="catigories__item"><a href="#" class="catigories__link">Джемы</a></li>
+                    <li class="catigories__item"><a href="#" class="catigories__link">Видеоигры</a></li>
+                    <li class="catigories__item"><a href="#" class="catigories__link">Сейчас в эфире</a></li>
+                    <li class="catigories__item"><a href="#" class="catigories__link">Туризм</a></li>
+                    <li class="catigories__item"><a href="#" class="catigories__link">Недавно опублекованные</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section class="content">
+        <div class="container">
+            <div class="content__wrapper">
+                <div class="content__menu">
+                    <div class="menu__list">
+                        <button class="menu__item-btn">
+                            <img src="assets/images/menu-main.svg" alt="" class="menu__item-img">
+                            <p class="menu__item-disc">Главная</p>
+                        </button>
+                        <button class="menu__item-btn">
+                            <img src="assets/images/menu-shorts.svg" alt="" class="menu__item-img">
+                            <p class="menu__item-disc">Shorts</p>
+                        </button>
+                        <button class="menu__item-btn">
+                            <img src="assets/images/menu-subscriptions.svg" alt="" class="menu__item-img">
+                            <p class="menu__item-disc">Подписки</p>
+                        </button>
+                        <button class="menu__item-btn">
+                            <img src="assets/images/menu-you.svg" alt="" class="menu__item-img">
+                            <p class="menu__item-disc">Вы</p>
+                        </button>
+                    </div>
+                </div>
+                <div class="content__list">
+                    <div class="content__list-video">
+                        <div class="video__list">
+                            <div class="video__item">
+                                <div class="video__list-preview">
+                                    <img src="assets/images/preview.jpg" alt="" class="video__list-img">
+                                    <div class="video__list-timeline"></div>
+                                    <p class="video__list-video_time">3:49:55</p>
+                                </div>
+                                <div class="video__list-disctription">
+                                    <div class="channel__img-wrapper">
+                                        <img src="assets/images/channel.jpg" alt="" class="video__list-channel-img">
+                                    </div>
+                                    <div class="video__list-textdiscription">
+                                        <p class="video__list-video_name">Аниме 24 часа без перерыва и оставнова</p>
+                                        <p class="video__list-channel_name">SuperAnime</p>
+                                        <p class="video__list-video_views">22 тыс.просмотров</p>
+                                        <p class="video__list-video_publish">3 года назад</p>
+                                    </div>
+                                    <button class="video__list-settings">...</button>
+                                </div>
+                            </div>
+
+                            <div class="video__item">
+                                <div class="video__list-preview">
+                                    <img src="assets/images/preview.jpg" alt="" class="video__list-img">
+                                    <div class="video__list-timeline"></div>
+                                    <p class="video__list-video_time">3:49:55</p>
+                                </div>
+                                <div class="video__list-disctription">
+                                    <div class="channel__img-wrapper">
+                                        <img src="assets/images/channel.jpg" alt="" class="video__list-channel-img">
+                                    </div>
+                                    <div class="video__list-textdiscription">
+                                        <p class="video__list-video_name">Аниме 24 часа без перерыва и оставнова</p>
+                                        <p class="video__list-channel_name">SuperAnime</p>
+                                        <p class="video__list-video_views">22 тыс.просмотров</p>
+                                        <p class="video__list-video_publish">3 года назад</p>
+                                    </div>
+                                    <button class="video__list-settings">...</button>
+                                </div>
+                            </div>
+                            <div class="video__item">
+                                <div class="video__list-preview">
+                                    <img src="assets/images/preview.jpg" alt="" class="video__list-img">
+                                    <div class="video__list-timeline"></div>
+                                    <p class="video__list-video_time">3:49:55</p>
+                                </div>
+                                <div class="video__list-disctription">
+                                    <div class="channel__img-wrapper">
+                                        <img src="assets/images/channel.jpg" alt="" class="video__list-channel-img">
+                                    </div>
+                                    <div class="video__list-textdiscription">
+                                        <p class="video__list-video_name">Аниме 24 часа без перерыва и оставнова</p>
+                                        <p class="video__list-channel_name">SuperAnime</p>
+                                        <p class="video__list-video_views">22 тыс.просмотров</p>
+                                        <p class="video__list-video_publish">3 года назад</p>
+                                    </div>
+                                    <button class="video__list-settings">...</button>
+                                </div>
+                            </div>
+
+                            <div class="video__item">
+                                <div class="video__list-preview">
+                                    <img src="assets/images/preview.jpg" alt="" class="video__list-img">
+                                    <div class="video__list-timeline"></div>
+                                    <p class="video__list-video_time">3:49:55</p>
+                                </div>
+                                <div class="video__list-disctription">
+                                    <div class="channel__img-wrapper">
+                                        <img src="assets/images/channel.jpg" alt="" class="video__list-channel-img">
+                                    </div>
+                                    <div class="video__list-textdiscription">
+                                        <p class="video__list-video_name">Аниме 24 часа без перерыва и оставнова</p>
+                                        <p class="video__list-channel_name">SuperAnime</p>
+                                        <p class="video__list-video_views">22 тыс.просмотров</p>
+                                        <p class="video__list-video_publish">3 года назад</p>
+                                    </div>
+                                    <button class="video__list-settings">...</button>
+                                </div>
+                            </div>
+
+                            <div class="video__item">
+                                <div class="video__list-preview">
+                                    <img src="assets/images/preview.jpg" alt="" class="video__list-img">
+                                    <div class="video__list-timeline"></div>
+                                    <p class="video__list-video_time">3:49:55</p>
+                                </div>
+                                <div class="video__list-disctription">
+                                    <div class="channel__img-wrapper">
+                                        <img src="assets/images/channel.jpg" alt="" class="video__list-channel-img">
+                                    </div>
+                                    <div class="video__list-textdiscription">
+                                        <p class="video__list-video_name">Аниме 24 часа без перерыва и оставнова</p>
+                                        <p class="video__list-channel_name">SuperAnime</p>
+                                        <p class="video__list-video_views">22 тыс.просмотров</p>
+                                        <p class="video__list-video_publish">3 года назад</p>
+                                    </div>
+                                    <button class="video__list-settings">...</button>
+                                </div>
+                            </div>
+
+                            <div class="video__item">
+                                <div class="video__list-preview">
+                                    <img src="assets/images/preview.jpg" alt="" class="video__list-img">
+                                    <div class="video__list-timeline"></div>
+                                    <p class="video__list-video_time">3:49:55</p>
+                                </div>
+                                <div class="video__list-disctription">
+                                    <div class="channel__img-wrapper">
+                                        <img src="assets/images/channel.jpg" alt="" class="video__list-channel-img">
+                                    </div>
+                                    <div class="video__list-textdiscription">
+                                        <p class="video__list-video_name">Аниме 24 часа без перерыва и оставнова</p>
+                                        <p class="video__list-channel_name">SuperAnime</p>
+                                        <p class="video__list-video_views">22 тыс.просмотров</p>
+                                        <p class="video__list-video_publish">3 года назад</p>
+                                    </div>
+                                    <button class="video__list-settings">...</button>
+                                </div>
+                            </div>
+
+                            <div class="video__item">
+                                <div class="video__list-preview">
+                                    <img src="assets/images/preview.jpg" alt="" class="video__list-img">
+                                    <div class="video__list-timeline"></div>
+                                    <p class="video__list-video_time">3:49:55</p>
+                                </div>
+                                <div class="video__list-disctription">
+                                    <div class="channel__img-wrapper">
+                                        <img src="assets/images/channel.jpg" alt="" class="video__list-channel-img">
+                                    </div>
+                                    <div class="video__list-textdiscription">
+                                        <p class="video__list-video_name">Аниме 24 часа без перерыва и оставнова</p>
+                                        <p class="video__list-channel_name">SuperAnime</p>
+                                        <p class="video__list-video_views">22 тыс.просмотров</p>
+                                        <p class="video__list-video_publish">3 года назад</p>
+                                    </div>
+                                    <button class="video__list-settings">...</button>
+                                </div>
+                            </div>
+
+                            <div class="video__item">
+                                <div class="video__list-preview">
+                                    <img src="assets/images/preview.jpg" alt="" class="video__list-img">
+                                    <div class="video__list-timeline"></div>
+                                    <p class="video__list-video_time">3:49:55</p>
+                                </div>
+                                <div class="video__list-disctription">
+                                    <div class="channel__img-wrapper">
+                                        <img src="assets/images/channel.jpg" alt="" class="video__list-channel-img">
+                                    </div>
+                                    <div class="video__list-textdiscription">
+                                        <p class="video__list-video_name">Аниме 24 часа без перерыва и оставнова</p>
+                                        <p class="video__list-channel_name">SuperAnime</p>
+                                        <p class="video__list-video_views">22 тыс.просмотров</p>
+                                        <p class="video__list-video_publish">3 года назад</p>
+                                    </div>
+                                    <button class="video__list-settings">...</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

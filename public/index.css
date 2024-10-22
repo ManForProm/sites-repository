@@ -68,3 +68,7 @@ body {
   
   background-color:antiquewhite;
 }
+
+.cars__btn--active{
+  background-color: aqua;
+}
