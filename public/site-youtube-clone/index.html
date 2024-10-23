@@ -15,8 +15,10 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/content.css">
+    <link rel="stylesheet" href="./css/media2400.css">
+    <link rel="stylesheet" href="./css/media1650.css">
+    <link rel="stylesheet" href="./css/media990.css">
     <link rel="stylesheet" href="./css/media560.css">
-    <link rel="stylesheet" href="./css/media940.css">
 </head>
 
 <body>
@@ -41,19 +43,23 @@
                     </div>
                     <button class="search__btn">
                         <img src="assets/images/search.svg" alt="" class="header__img-search">
+                        <span class="tooltiptext">Введите запрос</span>
                     </button>
                     <button class="search__btn-voice">
                         <img src="assets/images/voice.svg" alt="" class="header__img-voice">
+                        <span class="tooltiptext">Голосовой поиск</span>
                     </button>
                 </div>
                 <div class="header__usercorner">
                     <button class="header__create">
                         <img src="assets/images/plus.svg" alt="" class="create__plus-img">
                         <p class="header__usercorner-text">Создать</p>
+                        <span class="tooltiptext">Создать</span>
                     </button>
                     <button class="notification__btn">
                         <img src="assets/images/notification.svg" alt="" class="notification__btn-img">
                         <p class="notification__btn-text">9+</p>
+                        <span class="tooltiptext">Уведомления</span>
                     </button>
                     <a href="#" class="avatar__link">
                         <img src="assets/images/avatar.jpg" alt="" class="avatar__link-img">
@@ -107,11 +113,14 @@
                                 </div>
                                 <div class="video__list-disctription">
                                     <div class="channel__img-wrapper">
-                                        <img src="assets/images/channel.jpg" alt="" class="video__list-channel-img">
+                                        <a href="#" class="channel__link-img">
+                                            <img src="assets/images/channel.jpg" alt="" class="video__list-channel-img">
+                                        </a>
                                     </div>
                                     <div class="video__list-textdiscription">
-                                        <p class="video__list-video_name">Аниме 24 часа без перерыва и оставнова</p>
-                                        <p class="video__list-channel_name">SuperAnime</p>
+                                        <a class="video__list-video_name"> Аниме 24 часа без перерыва и оставнова</a>
+                                        <p class=""></p>
+                                        <a class="video__list-channel_name" href="#" >SuperAnime</a>
                                         <p class="video__list-video_views">22 тыс.просмотров</p>
                                         <p class="video__list-video_publish">3 года назад</p>
                                     </div>
@@ -265,7 +274,7 @@
         </div>
     </section>
 
-    <script src="./js/main.js"></script>
+    <script type="module" src="./js/main.js"></script>
 </body>
 
 </html>
