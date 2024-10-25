@@ -12,9 +12,11 @@
     <link
         href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/content.css">
+    <link rel="stylesheet" href="./css/slider.css">
     <link rel="stylesheet" href="./css/media2400.css">
     <link rel="stylesheet" href="./css/media1650.css">
     <link rel="stylesheet" href="./css/media990.css">
@@ -66,17 +68,6 @@
                     </a>
                 </div>
             </div>
-            <div class="content__list-catigories">
-                <ul class="catigories__list">
-                    <li class="catigories__item"><a href="#" class="catigories__link">Все</a></li>
-                    <li class="catigories__item"><a href="#" class="catigories__link">Музыка</a></li>
-                    <li class="catigories__item"><a href="#" class="catigories__link">Джемы</a></li>
-                    <li class="catigories__item"><a href="#" class="catigories__link">Видеоигры</a></li>
-                    <li class="catigories__item"><a href="#" class="catigories__link">Сейчас в эфире</a></li>
-                    <li class="catigories__item"><a href="#" class="catigories__link">Туризм</a></li>
-                    <li class="catigories__item"><a href="#" class="catigories__link">Недавно опублекованные</a></li>
-                </ul>
-            </div>
         </div>
     </header>
     <section class="content">
@@ -103,29 +94,53 @@
                     </div>
                 </div>
                 <div class="content__list">
+                    <div class="content__list-catigories">
+                        <div class="swaper__wrapper">
+                            <div class="catigories__list">
+                                <div class="catigories__item"><a href="#" class="catigories__link">Все</a></div>
+                                <div class="catigories__item"><a href="#" class="catigories__link">Джемы</a></div>
+                                <div class="catigories__item"><a href="#" class="catigories__link">Видеоигры</a></div>
+                                <div class="catigories__item"><a href="#" class="catigories__link">Музыка</a></div>
+                                <div class="catigories__item"><a href="#" class="catigories__link">Сейчас в эфире</a></div>
+                                <div class="catigories__item"><a href="#" class="catigories__link">Туризм</a></div>
+                                <div class="catigories__item"><a href="#" class="catigories__link">Недавно опубликованные</a>
+                                </div>
+                            </div>
+                            <div class="swaper__button-wrapper">
+                                <div class="swiper-button-prev"></div>
+                            </div>
+                            <div class="swaper__button-wrapper">
+                                <div class="swiper-button-next"></div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="content__list-video">
                         <div class="video__list">
                             <div class="video__item">
-                                <div class="video__list-preview">
-                                    <img src="assets/images/preview.jpg" alt="" class="video__list-img">
-                                    <div class="video__list-timeline"></div>
-                                    <p class="video__list-video_time">3:49:55</p>
-                                </div>
-                                <div class="video__list-disctription">
-                                    <div class="channel__img-wrapper">
-                                        <a href="#" class="channel__link-img">
-                                            <img src="assets/images/channel.jpg" alt="" class="video__list-channel-img">
-                                        </a>
+                                <a href="#">
+                                    <div class="video__list-preview">
+                                        <img src="assets/images/preview.jpg" alt="" class="video__list-img">
+                                        <div class="video__list-timeline"></div>
+                                        <p class="video__list-video_time">3:49:55</p>
                                     </div>
-                                    <div class="video__list-textdiscription">
-                                        <a class="video__list-video_name"> Аниме 24 часа без перерыва и оставнова</a>
-                                        <p class=""></p>
-                                        <a class="video__list-channel_name" href="#" >SuperAnime</a>
-                                        <p class="video__list-video_views">22 тыс.просмотров</p>
-                                        <p class="video__list-video_publish">3 года назад</p>
+                                    <div class="video__list-disctription">
+                                        <div class="channel__img-wrapper">
+                                            <a href="#" class="channel__link-img">
+                                                <img src="assets/images/channel.jpg" alt=""
+                                                    class="video__list-channel-img">
+                                            </a>
+                                        </div>
+                                        <div class="video__list-textdiscription">
+                                            <a class="video__list-video_name"> Аниме 24 часа без перерыва и
+                                                оставнова</a>
+                                            <p class=""></p>
+                                            <a class="video__list-channel_name" href="#">SuperAnime</a>
+                                            <p class="video__list-video_views">22 тыс.просмотров</p>
+                                            <p class="video__list-video_publish">3 года назад</p>
+                                        </div>
+                                        <button class="video__list-settings">...</button>
                                     </div>
-                                    <button class="video__list-settings">...</button>
-                                </div>
+                                </a>
                             </div>
 
                             <div class="video__item">
@@ -274,6 +289,7 @@
         </div>
     </section>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script type="module" src="./js/main.js"></script>
 </body>
 

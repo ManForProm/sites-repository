@@ -1,9 +1,25 @@
+import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs';
 import { ComponentLoader } from "./ComponentLoader.js";
+
+const swiper = new Swiper('.swaper__wrapper', {
+  direction: 'horizontal',
+  loop: true,
+  speed: 400,
+  spaceBetween:1,
+  slidesPerView:"auto",
+  wrapperClass:'catigories__list',
+  slideClass:'catigories__item',
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+})
 
 const componentLoader = new ComponentLoader();
 
 const videoList = document.getElementById('videoList');
 componentLoader.loadComponent('../subpackages/video-item.html', videoList);
+
 
 document.querySelector('.header__input').addEventListener('click', function() {
     // const headerSearch = document.querySelector('.header__search')

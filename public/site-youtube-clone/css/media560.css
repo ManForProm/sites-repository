@@ -3,3 +3,30 @@
         grid-template-columns: repeat(1, 1fr);
       }
 }
+
+@media (max-width: 780px) {
+  .video__list {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .content__menu{
+      visibility: hidden;
+    }
+
+    /* .swiper-button-prev{
+      content: none;
+      height: 40px;
+      width: 40px;
+      top:100px;
+      left: 10%;
+      background-color: #fff;
+    }
+    .swiper-button-next{
+      content: none;
+      height: 40px;
+      width: 40px;
+      top:90px;
+      left: 90%;
+      background-color: #fff;
+    } */
+    
+}

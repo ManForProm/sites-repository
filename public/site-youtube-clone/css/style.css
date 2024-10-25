@@ -12,6 +12,7 @@ body {
   color: #1f1e1e;
   margin-left: 0px;
   margin-right: 0px;
+  overflow-x: hidden;
 }
 a {
   text-decoration: none;
