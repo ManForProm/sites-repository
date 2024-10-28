@@ -1,19 +1,38 @@
 import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs';
 import { ComponentLoader } from "./ComponentLoader.js";
 
-const swiper = new Swiper('.swaper__wrapper', {
-  direction: 'horizontal',
-  loop: true,
-  speed: 400,
-  spaceBetween:1,
-  slidesPerView:"auto",
-  wrapperClass:'catigories__list',
-  slideClass:'catigories__item',
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-})
+document.addEventListener('DOMContentLoaded', function () {
+    const swiper = new Swiper('.swaper__wrapper', {
+      direction: 'horizontal',
+      freeMode: true,
+      spaceBetween: 15,
+      slidesPerView: "auto",
+      wrapperClass: 'catigories__list',
+      slideClass: 'catigories__item',
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+        //   breakpoints: {
+        //     "320": {
+        //       slidesPerView: 2,
+        //       spaceBetween: 10,
+        //     },
+        //     "600": {
+        //       slidesPerView: 4,
+        //       spaceBetween: 10,
+        //     },
+        //     "800": {
+        //       slidesPerView: 5,
+        //       spaceBetween: 10,
+        //     },
+        //     "980": {
+        //       slidesPerView: 6,
+        //       spaceBetween: 10,
+        //     },
+        //   },
+    });
+  });
 
 const componentLoader = new ComponentLoader();
 

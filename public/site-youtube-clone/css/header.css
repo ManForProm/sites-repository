@@ -2,8 +2,8 @@
   position: sticky;
   top: 0;
   z-index: 1000;
-  background-color: #ffffffdf;
-  backdrop-filter: blur(20px); 
+  background-color: #ffffffeb;
+  backdrop-filter: blur(10px); 
   -webkit-backdrop-filter: blur(10px); 
   padding-top: 5px;
   padding-bottom: 5px;
@@ -142,6 +142,7 @@ input:focus {
 .search__btn:hover .tooltiptext {
   visibility: visible;
   transform: translate(-60%, 90%);
+  z-index: 1010;
 }
 .header__img-search {
   height: 18px;

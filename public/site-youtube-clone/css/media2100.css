@@ -1,0 +1,6 @@
+@media (max-width: 2100px) {
+    .video__list {
+      grid-template-columns: repeat(5, 1fr);
+    }
+  }
+  

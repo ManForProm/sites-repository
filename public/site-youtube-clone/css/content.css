@@ -4,7 +4,7 @@
 }
 .content__wrapper {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
 }
 .content__menu {
   align-self: center;
@@ -49,6 +49,8 @@
   margin-left: 85px;
 }
 .content__list-video {
+  
+  margin-top: 45px;
 }
 .video__list {
   display: grid;

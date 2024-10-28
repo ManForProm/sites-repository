@@ -1,3 +1,18 @@
+@media (max-width: 1340px) {
+  .video__list-video_time {
+    left: 77%;
+  }
+}
+@media (max-width: 1260px) {
+  .video__list-video_time {
+    left: 77%;
+  }
+  .video__list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+
 @media (max-width: 990px) {
   .video__list {
     grid-template-columns: repeat(2, 1fr);
@@ -15,17 +30,5 @@
     z-index: 1;
 }
 
-}
-
-@media (max-width: 1040px) {
-  .video__list {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 1260px) {
-  .video__list-video_time {
-    left: 77%;
-  }
 }
 

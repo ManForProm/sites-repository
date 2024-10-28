@@ -1,12 +1,17 @@
 
 .content__list-catigories{
-    position: relative;
-    left: 90px;
+    position: fixed;
+    width: 100%;
+    background-color: #ffffffeb;
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+    margin-top: -13px;
+    z-index: 1001;
   }
   .catigories__list {
       margin-bottom: 5px;
     display: flex;
-    gap: 15px;
+    gap: 0px;
     position: sticky;
     list-style: none;
     /* margin-left: 90px; */    
@@ -14,6 +19,10 @@
     font-weight: 500;
   }
   .catigories__item {
+    display: inline-block;
+    min-width: auto;
+    max-width: max-content;
+    flex-shrink: 0;
     background-color: #00000015;
     padding: 5px 10px;
     border-radius: 10px;
@@ -33,21 +42,28 @@
   .swaper__wrapper {
     width: 100%;
   }
+  .swaper__button-wrapper{
+    background-color: #fff;
+  }
   .swiper-button-prev{
+    position: absolute;
+    text-align: center;
     content: none;
     height: 40px;
     width: 40px;
-    top:19px;
-    left: -10%;
+    top:17px;
+    left: -3%;
     background-color: #fff;
   }
   .swiper-button-next{
+    position: absolute;
+    text-align: center;
     content: none;
     height: 40px;
     width: 40px;
-    top:19px;
-    left: 90%;
-    color: black;
+    top:17px;
+    right: 99px; 
+    color: transparent;
     background-color: #fff;
   }
   .swiper-button-next::before{
@@ -70,5 +86,26 @@
     filter: blur(5px);
     top: -4px;
     left: 33px;
+  }
+  .swiper-button-prev::before{
+    content: "";
+    width: 86px;
+    height: 43px;
+    top: -3px;
+    left: -83px;
+    background-color: #fff;
+    position: absolute;
+  }
+
+  .swiper-button-arrow:hover{
+    background-color: #00000025;
+    border-radius: 50%;
+  }
+  .swiper-button-arrow:hover{
+    background-color: #00000025;
+    border-radius: 50%;
+  }
+  .swiper__button-arrow{
+    color: #000;
   }
   

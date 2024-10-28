@@ -1,6 +1,5 @@
 @media (min-width: 2400px) {
-    .video__list {
-      grid-template-columns: repeat(5, 1fr);
+  .video__list {
+      grid-template-columns: repeat(6, 1fr);
     }
-  }
-  
+}
