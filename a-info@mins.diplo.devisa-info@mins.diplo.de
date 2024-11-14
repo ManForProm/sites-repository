@@ -1,0 +1,15 @@
+warning: LF will be replaced by CRLF in public/index.html.
+The file will have its original line endings in your working directory
+[1mdiff --git a/public/index.html b/public/index.html[m
+[1mindex c7d7bf4..d81589e 100644[m
+[1m--- a/public/index.html[m
+[1m+++ b/public/index.html[m
+[36m@@ -30,7 +30,7 @@[m
+                     <li class="projects__list-item">[m
+                         <a href="site-youtube-clone/index.html" class="youtube__btn button">Youtube</a>[m
+                     </li>[m
+[31m-                    <li class="projects__list-item"></li>[m
+[32m+[m[32m                    <li class="projects__list-item">[m
+                         <a href="site-task-manager-markup/index.html" class="tasks__btn button">Task manager markup</a>[m
+                     </li>[m
+                 </ul>[m
