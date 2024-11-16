@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task manager markup</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/deskWorkspace/deskWorkspace.css" />
+    <link rel="stylesheet" href="../css/deskWorkspace/headerDesk.css" />
+    <link rel="stylesheet" href="../css/deskWorkspace/taskCard.css" />
+    <link rel="stylesheet" href="../css/deskWorkspace/deskWorkspaceMedia.css" />
+</head>
+
+<body>
+    <header class="header__desk">
+        <div class="container">
+            <div class="header__desk-wrapper">
+                <div class="header__desk-left">
+                    <p class="desk__name-title">Важно</p>
+                    <button class="desk__tasks_group-add_to_favorite-btn">
+                        <img src="../assets/images/favorite.svg" alt="" class="desk__add_to_favorite-icon">
+                    </button>
+                    <button class="desk__tasks_group-private-btn">
+                        <img src="../assets/images/private_white.svg" alt="" class="desk__private-icon">
+                    </button>
+                    <div class="filter__tasks_group">
+                        <button class="desk__tasks_group-filter">
+                            <img src="../assets/images/filter_task_group.svg" alt="" class="icon__tasks_group-filter">
+                            <p class="selected__tasks_group-filter">По доске</p>
+                        </button>
+                        <img src="../assets/images/expand_down.svg" alt="" class="expand__tasks_group-filter">
+                    </div>
+                </div>
+                <div class="header__desk-right">
+                    <button class="filter__tasks-btn">
+                        <img src="../assets/images/filter_tasks.svg" alt="" class="filter_tasks__icon">
+                        <p class="filter_tasks__text">Фильтры</p>
+                    </button>
+                    <button class="profile__btn">
+                        <div class="profile__btn-content">М</div>
+                    </button>
+                    <button class="share__desk-btn">
+                        <img src="../assets/images/share_black.svg" alt="" class="share__desk-icon">
+                        <p class="share__desk-text">Поделиться</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="desk__workspace">
+        <div class="container">
+            <div class="tasks_grops-wrapper">
+                <div class="tasks_group">
+                    <div class="tasks_group__header">
+                        <textarea type="text" class="tasks_group__header-title"
+                            placeholder="Введите новое имя"></textarea>
+                        <div class="tasks_group__header-wrapper">
+                            <button class="tasks_group__header-expand">
+                                <img src="../assets/images/expand_task_group.svg" alt=""
+                                    class="tasks_group__header-expand_icon">
+                            </button>
+                            <button class="tasks_group__header-settings">
+                                <img src="../assets/images/dotsSettings.svg" alt=""
+                                    class="tasks_group__header-settings_icon">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="tasks_group__tasks">
+                        <div class="task__wrapper">
+                            <div class="task__flags"></div>
+                            <d class="task__content">
+                                <p class="task__text">Посмотреть фильм</p>
+                            </d>
+                        </div>
+                    </div>
+                    <div class="tasks_group__footer">
+                        <button class="add__task">
+                            <img src="../assets/images/plus.svg" alt="" class="add__task-icon">
+                            <p class="add__task-text">Добавить карточку</p>
+                        </button>
+                    </div>
+                </div>
+                <div class="tasks_group">
+                    <div class="tasks_group__header">
+                        <textarea type="text" class="tasks_group__header-title"
+                            placeholder="Введите новое имя"></textarea>
+                        <div class="tasks_group__header-wrapper">
+                            <button class="tasks_group__header-expand">
+                                <img src="../assets/images/expand_task_group.svg" alt=""
+                                    class="tasks_group__header-expand_icon">
+                            </button>
+                            <button class="tasks_group__header-settings">
+                                <img src="../assets/images/dotsSettings.svg" alt=""
+                                    class="tasks_group__header-settings_icon">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="tasks_group__tasks">
+                        <div class="task__wrapper">
+                            <div class="task__flags"></div>
+                            <d class="task__content">
+                                <p class="task__text">Посмотреть фильм</p>
+                            </d>
+                        </div>
+                    </div>
+                    <div class="tasks_group__footer">
+                        <button class="add__task">
+                            <img src="../assets/images/plus.svg" alt="" class="add__task-icon">
+                            <p class="add__task-text">Добавить карточку</p>
+                        </button>
+                    </div>
+                </div>
+                <div class="add__group_tasks">
+                    <button class="add__group_tasks-btn">
+                        <img src="../assets/images/plusWhite.svg" alt="" class="add__group_tasks-icon">
+                        <p class="add__group_tasks-title">Добавьте еще одну колонку</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script type="module" src="./js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/autosize@4.0.2/dist/autosize.min.js"></script>
+
+    <script>
+        autosize(document.querySelectorAll('textarea'));
+    </script>
+</body>
+
+</html>

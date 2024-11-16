@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Task manager markup</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/desksWorkspace/headerWorkspace.css" />
+  <link rel="stylesheet" href="../css/desksWorkspace/desksWorkspace.css" />
+  <link rel="stylesheet" href="../css/desksWorkspace/deskCard.css" />
+  <link rel="stylesheet" href="../css/desksWorkspace/desksWorkspaceMedia.css" />
+</head>
+
+<body>
+  <header class="header__workspace">
+    <div class="container">
+      <div class="header__items">
+        <div class="workspace__info">
+          <div class="workspace__icon">
+            <a href="#" class="workspace__icon-link">
+              <p class="workspace__icon-firstword">Д</p>
+              <img src="" alt="" class="workspace__icon-img" />
+            </a>
+          </div>
+          <div class="workspace__info-wrapper">
+            <div class="workspace__info-text">
+              <h2 class="workspace__name">Доска</h2>
+              <button class="workspace__info-change-btn">
+                <img src="../assets/images/edit.svg" alt="" class="workspace__info-change-btn-icon" />
+              </button>
+            </div>
+            <div class="workspace__access">
+              <img src="../assets/images/private.svg" alt="" class="workspace__access-icon" />
+              <p class="workspace__access-text">Приватная</p>
+            </div>
+          </div>
+        </div>
+        <div class="add__user">
+          <button class="add__user-btn">
+            <img src="../assets/images/add_someone.svg" alt="" class="add__user-icon" />
+            <p class="add__user-text">
+              Пригласите пользователей в рабочее пространство
+            </p>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="desks__workspace">
+    <div class="container">
+      <div class="devider__line"></div>
+      <h1 class="desks__title">Доски</h1>
+      <div class="desks__filter">
+        <div class="desks__sortfilter-wrapper">
+          <div class="desks__sort">
+            <h1 class="desks__sort-title">Сортировать по</h1>
+            <select class="desks__sort-selection">
+              <option class="desk__sort-option" value="date">Дате</option>
+              <option class="desk__sort-option" value="priority">
+                Приоритету
+              </option>
+              <option class="desk__sort-option" value="name">Имени</option>
+            </select>
+          </div>
+          <div class="desks__filtering">
+            <h1 class="desks__filtering-title">Фильтр:</h1>
+            <select class="desks__filtering-selection">
+              <option class="desk__filtering-option" value="priority">
+                Приоритету
+              </option>
+              <option class="desk__filtering-option" value="name">Имени</option>
+              <option class="desk__filtering-option" value="date">Дате</option>
+            </select>
+          </div>
+        </div>
+        <div class="desks__search">
+          <p class="desks__search-text">Поиск</p>
+          <div class="desks__search-container">
+            <img src="../assets/images/search.svg" alt="" class="desks__search-icon">
+            <input type="text" class="desks__search-input" placeholder="Поиск досок" />
+          </div>
+        </div>
+      </div>
+      <div class="desks__group">
+        <div class="desks__group-title">
+          <img src="../assets/images/contrebutors.svg" alt="" class="group__title-icon" />
+          <h2 class="group__title-text">Мои доски</h2>
+        </div>
+        <div class="desk__group-desks">
+          <a href="https://example.com" class="desk__group-desk_create">
+            <p class="desk__title-create">Создать доску</p>
+          </a>
+          <a href="../subpackages/deskWorkspace.html" class="desk__group-desk">
+            <p class="desk__title">Важно</p>
+            <img src="../assets/images/favorite.svg" alt="" class="desk__group-desk_icon">
+          </a>
+          <a href="https://example.com" class="desk__group-desk">
+            <p class="desk__title">Не важно</p>
+            <img src="../assets/images/favorite.svg" alt="" class="desk__group-desk_icon">
+          </a>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+  <script type="module" src="./js/main.js"></script>
+</body>
+
+</html>
